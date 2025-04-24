@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
 const BadComponent = () => {
-  //const a = useState(false);
+  const a = useState(false);
 
-  //const b = true;
+  const b = true;
 
   const clik = () => {
     console.log('clicked');
