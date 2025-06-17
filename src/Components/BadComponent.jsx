@@ -11,8 +11,8 @@ const BadComponent = () => {
 
   return (
     <div style={{ color: 'red', margin: '10px' }}>
-      {[1, 2, 3].map((item) => (
-        <div>{item}</div> // missing key
+      {[1, 2, 3].map((item,id) => (
+        <div key={{id}}>{item}</div> // missing key
       ))}
 
       <button onClick={clik}>Click</button>
